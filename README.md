@@ -21,7 +21,7 @@ This project is a User Management System designed to manage user data stored in 
 
 To run this project locally, follow these steps:
 
-1. Clone the repository from GitHub: `git clone <repository_url>`
+1. Clone the repository from GitHub: `git clone <[repository_url](https://github.com/ilanBitan/SeaData-FullStackProject.git)>`
 2. Navigate to the project directory: `cd user-management-system`
 3. Install dependencies for the server:
    ```bash
@@ -45,7 +45,7 @@ To run this project locally, follow these steps:
    npm start
    ```
 8. Access the application in your browser at `http://localhost:3000`.
-
+9. The server is running on port 3001.
 ## Usage
 
 - **Add New User**: Click on the "Add User" button to open the form screen and fill in the required details to add a new user.
@@ -59,6 +59,8 @@ To run this project locally, follow these steps:
 
 - **server**: Contains the server-side code written in Node.js with Express.js to handle HTTP requests and interact with the MySQL database.
 - **client**: Contains the client-side code written in React to create the user interface and communicate with the server.
+
+![image](https://github.com/ilanBitan/SeaData-FullStackProject/assets/62257681/3609d330-eae9-4cc8-89e4-5d38965010b1)
 
 ## Credits
 
