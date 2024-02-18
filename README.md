@@ -1,4 +1,4 @@
-# SeaData Project for FullStack position
+# SeaData project for FullStack position
 
 ## Overview
 
