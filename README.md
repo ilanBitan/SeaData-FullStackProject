@@ -60,6 +60,7 @@ To run this project locally, follow these steps:
 - **server**: Contains the server-side code written in Node.js with Express.js to handle HTTP requests and interact with the MySQL database.
 - **client**: Contains the client-side code written in React to create the user interface and communicate with the server.
 
+
 ![image](https://github.com/ilanBitan/SeaData-FullStackProject/assets/62257681/3609d330-eae9-4cc8-89e4-5d38965010b1)
 
 ## Credits
