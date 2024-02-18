@@ -49,7 +49,7 @@ INSERT INTO USERS (full_name, country, city, email, phone_number, job_title, yea
 
 To run this project locally, follow these steps:
 
-1. Clone the repository from GitHub: `git clone <[repository_url](https://github.com/ilanBitan/SeaData-FullStackProject.git)>`
+1. Clone the repository from GitHub: `git clone <(https://github.com/ilanBitan/SeaData-FullStackProject.git)>`
 2. Navigate to the project directory: `cd user-management-system`
 3. Install dependencies for the server:
    ```bash
