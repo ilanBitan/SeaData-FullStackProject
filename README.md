@@ -1,7 +1,3 @@
-Sure, here's the updated README.md file with the included SQL script:
-
----
-
 # SeaData Project for FullStack position
 
 ## Overview
