@@ -1,3 +1,7 @@
+Sure, here's the updated README.md file with the included SQL script:
+
+---
+
 # SeaData Project for FullStack position
 
 ## Overview
@@ -16,6 +20,34 @@ This project is a User Management System designed to manage user data stored in 
    - phone number
    - job title
    - years of experience
+
+### SQL Script
+
+```sql
+-- Create the EXAM database
+CREATE DATABASE IF NOT EXISTS EXAM;
+
+-- Use the EXAM database
+USE EXAM;
+
+-- Create the USERS table
+CREATE TABLE IF NOT EXISTS USERS (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    full_name VARCHAR(255),
+    country VARCHAR(255),
+    city VARCHAR(255),
+    email VARCHAR(255),
+    phone_number VARCHAR(20),
+    job_title VARCHAR(255),
+    years_of_experience INT
+);
+
+-- Insert JSON data into the USERS table
+INSERT INTO USERS (full_name, country, city, email, phone_number, job_title, years_of_experience) VALUES
+('Ilan Bitan', 'ישראל', 'Givat Shmuel', 'bitanilan@gmail.com', '052-123-3222', 'Full Stack Engineer', 0),
+('Yonadav Leibowitz', 'Israel', 'Tel Aviv', 'yonadav@gmail.com', '123456789012', 'Full Stack Engineer', 12),
+('Drake Bell', 'USA', 'California', 'DrakeBell@gmail.com', '987-648-3915413', 'Singer', 0);
+```
 
 ## Installation
 
@@ -46,6 +78,7 @@ To run this project locally, follow these steps:
    ```
 8. Access the application in your browser at `http://localhost:3000`.
 9. The server is running on port 3001.
+
 ## Usage
 
 - **Add New User**: Click on the "Add User" button to open the form screen and fill in the required details to add a new user.
@@ -60,9 +93,8 @@ To run this project locally, follow these steps:
 - **server**: Contains the server-side code written in Node.js with Express.js to handle HTTP requests and interact with the MySQL database.
 - **client**: Contains the client-side code written in React to create the user interface and communicate with the server.
 
-
 ![image](https://github.com/ilanBitan/SeaData-FullStackProject/assets/62257681/3609d330-eae9-4cc8-89e4-5d38965010b1)
 
 ## Credits
 
-This project was developed byIlan Bitan.
+This project was developed by Ilan Bitan.
