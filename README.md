@@ -33,11 +33,11 @@ To run this project locally, follow these steps:
    - Create a USERS table with the specified fields.
 5. Start the server:
    ```bash
-   npm start
+   node server.js
    ```
 6. Install dependencies for the client:
    ```bash
-   cd ../client
+   cd src
    npm install
    ```
 7. Start the client:
