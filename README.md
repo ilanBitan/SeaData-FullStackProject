@@ -62,4 +62,4 @@ To run this project locally, follow these steps:
 
 ## Credits
 
-This project was developed by [Ilan Bitan].
+This project was developed byIlan Bitan.
